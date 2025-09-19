@@ -1,0 +1,109 @@
+* Hello Hugo                                                       :hugo:org:@cool:
+  :properties:
+  :export_file_name: hello-hugo
+  :export_date: 2025-09-18
+  :export_hugo_custom_front_matter: :summary "Hugo, Ox Hugo and GitHub Pages → this website."
+  :end:
+
+** Introduction
+  After floundering about unsuccessfully with Hugo in the past, this
+  time things finally clicked. One thing that helped me greatly here
+  was becoming acquainted with Go; and so, for example, things like
+  Hugo templates are now a familiar idiom.
+
+  I was overjoyed to find out that Hugo supports Emacs Org Mode
+  natively! However, I quickly found out[fn:1] that the recommended
+  approach is to use Ox Hugo, something else with which I had toyed
+  with but ultimately failed to understand - and, as in the case of
+  Hugo itself, finally grokked.
+
+  It's remarkable the degree to which software engineering skills are
+  built upon a foundation of familiarity with lore.[fn:2] After
+  becoming familiar with backend web development, the idea of
+  "starting a local server", for example, to preview one's Hugo-built
+  site was no longer as weird as it was before. 
+
+** Part One: Some Backstory
+   I needed a website - the one you're reading now - because, at the
+   time of this writing, I'm looking for a full-time software
+   developer position.  Now, without falling into some sort of
+   pernicious Dunning-Kruger tarpit, I can assert confidently that, in
+   my university years as a CS major in the early 2000's, I was /bad/
+   at programming; I was arguably one of the worst in my
+   class. Functional programming? Forget it: recursion was completely
+   over my head. Low-level? Had no idea how to write C. You get the
+   idea.
+
+   However, over the years, something clicked where I felt I really
+   needed to get back into the loop of coding; after all, I had this
+   degree, but had never used it. Such a discrepancy began to weigh
+   down on me, and, once I started having a bit of free time here and
+   there), I began the effort to reform myself according to what I had
+   professed previously as my declared profession.
+
+   Interestingly, one thing that my university years /did/ give me was
+   a taste for Emacs. This occured while taking an Operating Systems
+   course, where the lab computers were outfitted with Emacs, which we
+   would use to edit our source files for our projects. Now looking
+   back at that time, I suppose it was enlightened of them to "make
+   us" use Emacs. To this day, when editing code, I make use of a
+   shortcut for copying a line a fellow lab user had shown us: ~C-k~
+   followed by a quick ~C-y~ to first cut away the line and then
+   quickly paste it back where it was, so that it would remain in
+   Emacs's kill ring for pasting in somewhere else.
+
+   And so, in recent years I've been brushing up on old skills, and
+   building new ones. I've picked up acquaintance with quite a few
+   languages out there, some feverishly popular, and some less
+   popular.
+
+   One such language was Lua. I have a soft spot for Lua. Lua 5.3 was
+   the first programming language I learned /well enough/ to write
+   serious, lengthy programs in (I had used it to complete the /Nand
+   to Tetris/ course on Coursera.) The book /Programming in Lua/ (the
+   edition based on Lua 5.0 is available online![fn:3]) is
+   fantastically well-written, arguably on par with K&R in this
+   respect. The chapter on Lua patterns primed my brain to finally
+   truly understand regular expressions later on.
+
+   Programming can be hard at first, but practice and determination
+   really do make perfect.
+
+** The end
+   
+* Minor Modes are an Excellent Hack                               :emacs:org:
+  :properties:
+  :export_file_name: minor-modes-are-an-excellent-hack
+  :export_date: 2025-09-18
+  :export_hugo_custom_front_matter: :summary "Minor modes are underrated as an Emacs skill."
+  :end:
+
+  Some text.
+
+* A Third Post
+  :properties:
+  :export_file_name: a-third-post
+  :export_date: 2025-09-18
+  :export_hugo_custom_front_matter: :summary "A third post."
+  :end:
+
+  Some text.
+
+* COMMENT References
+
+1. https://gohugo.io
+2. https://ox-hugo.scripter.co/
+
+
+
+
+* Footnotes
+[fn:4] https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/index.html 
+[fn:3] https://www.lua.org/pil/contents.html
+[fn:2] Arguably, this is why a lot of people famously find coding
+difficult at first: there's a lot of /implied/ know-how one really
+needs to come to the table with in order to be successful at the
+endeavor. Proficiency in matters of software can often be a sub-linear
+bootstrapping process.
+
+[fn:1] https://weblog.masukomi.org/2024/07/19/using-org-mode-with-hugo/ 

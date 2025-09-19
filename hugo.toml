@@ -1,0 +1,26 @@
+baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "Some Programs"
+theme = "terminal"
+timeZone = "America/New_York"
+
+[params]
+subtitle = "Musings on the Abstract"
+dateFormat = " Sep 02 2006"
+toc = true
+
+[params.author]
+email = "brandon.irizarry@gmail.com"
+
+[menu]
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 1
+
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 2

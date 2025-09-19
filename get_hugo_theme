@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+REPO=$1
+THEME_NAME=$2
+
+git submodule add $REPO themes/$THEME_NAME
+
