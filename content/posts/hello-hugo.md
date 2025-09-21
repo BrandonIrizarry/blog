@@ -1,10 +1,9 @@
 +++
 title = "Hello Hugo"
 author = ["Brandon C. Irizarry"]
-date = 2025-09-18
-lastmod = 2025-09-20T13:16:05-04:00
+date = 2025-09-21T14:14:00-04:00
+lastmod = 2025-09-21T14:18:25-04:00
 tags = ["hugo", "org"]
-categories = ["cool"]
 draft = false
 summary = "Hugo, Ox Hugo and GitHub Pages → this website."
 +++
@@ -46,7 +45,7 @@ However, over the years, something clicked where I felt I really
 needed to get back into the loop of coding; after all, I had this
 degree, but had never used it. Such a discrepancy began to weigh
 down on me, and, once I started having a bit of free time here and
-there), I began the effort to reform myself according to what I had
+there, I began the effort to reform myself according to what I had
 professed previously as my declared profession.
 
 Interestingly, one thing that my university years _did_ give me was
@@ -94,36 +93,47 @@ documentation at [gohugo.io](https://gohugo.io).
 For people interested in Emacs and Ox Hugo, there's also
 [ox-hugo.scripter.co](https://ox-hugo.scripter.co/).
 
-I'll now detail a quick summary of the steps I took.
+I was tempted to rehearse in full the steps I took to get this site
+up and running. However, there are already resources online for
+that, which fall into one of two categories:
 
+1.  The official docs, which are always up-to-date and infallible,
+    but are sometimes unideal for "quickstarting";
 
-### Install Hugo {#install-hugo}
+2.  Blog posts (this includes SO), which are to-the-point and are
+    geared towards mere mortals, but which also inevitably fall into
+    obsolesence, since they by definition don't fall into the first
+    category, and so there isn't even an implied responsibility to
+    keep them up-to-date.[^fn:7]
 
-Specifically, the Extended Edition (though I went full maximalist
-and installed the Deployable Edition.)
+And so what worked for me in the end was start with category #2,
+and fill in any necessary gaps with a combination of category #1,
+and experience from having made mistakes while attempting category
+\#2.
 
+However, I feel comfortable _summarizing_ what I did:
 
-### Create a New Hugo Site {#create-a-new-hugo-site}
+1.  Use `go install` to build the Hugo extend/deploy edition.
 
-The site you create in this step will be your actual blog. Hugo,
-at heart, is a Golang command-line app, and so drives like one:
+2.  Get all the boilerplate in place: create a new Hugo site,
+    initialize a Git repository with an appropriate `.gitignore`,
+    and initialize a new Hugo module.
 
-`hugo new site $SITENAME`
+3.  Install a Hugo theme (it looks like there are various ways to do
+    this.)
 
+4.  Set up a "one post per Org subtree" Ox Hugo workflow.
 
-### Initialize a Git Repo at the Root of Your Site {#initialize-a-git-repo-at-the-root-of-your-site}
+5.  Preview your site with `hugo serve`.
 
-At this step, you'll also add a nice `.gitignore` file:
+6.  Deploy your site to GitHub Pages. Note that, since you're using
+    Hugo, you need to rely on GitHub Actions to accomplish this,
+    which I found a bit tricky to set up at first.
 
-```text
-.DS_Store
-.hugo_build.lock
-/public/
-/resources/_gen/
-```
-
-
-###  {#d41d8c}
+And there it is. To be honest, I'm still somewhat in the throes of
+learning Hugo, and so this is merely something to give my blog
+content a conceptually satisfying first post serving as a
+"bootstrapping" introduction to itself.
 
 [^fn:1]: Arguably, this is why a lot of people famously find coding
     difficult at first: there's a lot of _implied_ know-how one really
@@ -138,3 +148,6 @@ At this step, you'll also add a nice `.gitignore` file:
 [^fn:5]: However, Markdown Mode for Emacs is nevertheless excellent, and
     can make editing Markdown almost feel like you're editing Org!
 [^fn:6]: <https://mikefrobbins.com/2023/10/26/building-and-deploying-a-blog-with-hugo-and-github-pages/>
+[^fn:7]: I experienced this quite directly while attempting to follow
+    instructions to deploy my site to GitHub Pages. Moral of the story:
+    the official Hugo site is where to get the necessary `yaml` file. 😑
