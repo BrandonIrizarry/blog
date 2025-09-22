@@ -1,10 +1,41 @@
 #+title: Some Programs
 #+startup: logdone
 
-* Front
 
+* DONE About
+  CLOSED: [2025-09-22 Mon 11:44]
+  :properties:
+  :export_hugo_section: about
+  :export_file_name: about
+  :end:
+
+** About Me
+
+   My name is Brandon Irizarry. I write about stuff that interests me
+   on this blog. That can, as is mandated by tradition, include
+   software and other tech-related projects I'm working on (or with),
+   but can come to include other hobbies as well, like playing
+   keyboard (and music in general.)
+
+* Projects
+  :properties:
+  :export_hugo_section: projects
+  :export_file_name: projects
+  :end:
+
+  Summaries and links to my various projects will go here.
+  
+* Posts
+  :properties:
+  :export_hugo_section: posts
+  :export_options: toc:headlines
+  :end:
+
+  This heading exists mainly so that subtrees inherit ~posts~ as their
+  "Hugo section" value.
+    
 ** DONE Hello Hugo                                                 :hugo:org:
-   CLOSED: [2025-09-21 Sun 14:14]
+   CLOSED: [2025-09-22 Mon 11:36]
    :properties:
    :export_file_name: hello-hugo
    :export_hugo_custom_front_matter: :summary "Hugo, Ox Hugo and GitHub Pages → this website."
@@ -102,7 +133,7 @@
        geared towards mere mortals, but which also inevitably fall into
        obsolesence, since they by definition don't fall into the first
        category, and so there isn't even an implied responsibility to
-       keep them up-to-date.[fn:8] 
+       keep them up-to-date.[fn:7] 
 
     And so what worked for me in the end was start with category #2,
     and fill in any necessary gaps with a combination of category #1,
@@ -111,7 +142,9 @@
 
     However, I feel comfortable /summarizing/ what I did:
 
-    1. Use ~go install~ to build the Hugo extend/deploy edition.
+    1. Use ~go install~ to build the Hugo extend/deploy edition from
+       source. Despite being a "build from source", I found this to be
+       surprisingly painless.[fn:8]
       
     2. Get all the boilerplate in place: create a new Hugo site,
        initialize a Git repository with an appropriate ~.gitignore~,
@@ -136,7 +169,9 @@
 
 
 * Footnotes
-[fn:8] I experienced this quite directly while attempting to follow
+
+[fn:8] I'm installing for GNU/Linux. 
+[fn:7] I experienced this quite directly while attempting to follow
 instructions to deploy my site to GitHub Pages. Moral of the story:
 the official Hugo site is where to get the necessary ~yaml~ file. 😑
 
@@ -149,7 +184,7 @@ but hey - I was more interested in Lua at the time.
 
 [fn:6] https://mikefrobbins.com/2023/10/26/building-and-deploying-a-blog-with-hugo-and-github-pages/
 
-[fn:7] https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/index.html 
+[fn:9] https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/index.html 
 
 [fn:4] Lua 5.0 edition available here: https://www.lua.org/pil/contents.html
 

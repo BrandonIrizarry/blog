@@ -1,12 +1,24 @@
 +++
 title = "Hello Hugo"
 author = ["Brandon C. Irizarry"]
-date = 2025-09-21T14:14:00-04:00
-lastmod = 2025-09-21T14:18:25-04:00
+date = 2025-09-22T11:36:00-04:00
+lastmod = 2025-09-22T12:13:05-04:00
 tags = ["hugo", "org"]
 draft = false
 summary = "Hugo, Ox Hugo and GitHub Pages → this website."
 +++
+
+<div class="ox-hugo-toc toc">
+
+<div class="heading">Table of Contents</div>
+
+- [Introduction](#introduction)
+- [Some Backstory](#some-backstory)
+- [Enter Hugo](#enter-hugo)
+
+</div>
+<!--endtoc-->
+
 
 ## Introduction {#introduction}
 
@@ -113,7 +125,9 @@ and experience from having made mistakes while attempting category
 
 However, I feel comfortable _summarizing_ what I did:
 
-1.  Use `go install` to build the Hugo extend/deploy edition.
+1.  Use `go install` to build the Hugo extend/deploy edition from
+    source. Despite being a "build from source", I found this to be
+    surprisingly painless.[^fn:8]
 
 2.  Get all the boilerplate in place: create a new Hugo site,
     initialize a Git repository with an appropriate `.gitignore`,
@@ -151,3 +165,4 @@ content a conceptually satisfying first post serving as a
 [^fn:7]: I experienced this quite directly while attempting to follow
     instructions to deploy my site to GitHub Pages. Moral of the story:
     the official Hugo site is where to get the necessary `yaml` file. 😑
+[^fn:8]: I'm installing for GNU/Linux.

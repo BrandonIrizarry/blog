@@ -39,11 +39,11 @@ pagination.pagerSize = 5
   # readingTime = false # default
 
   # whether to show a table of contents
-  Toc = true
+  # Toc = true
 
   # set title for the table of contents
   # can be overridden in a page's front-matter
-  # TocTitle = "Table of Contents" # default
+  TocTitle = "Table of Contents" # default
 
   # Set date/time format for posts
   # This will impact the date/time displayed on
@@ -70,10 +70,10 @@ pagination.pagerSize = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
+    title = "Some Programs"
 
     [languages.en.params]
-      subtitle = "A simple, retro theme for Hugo"
+      subtitle = "Musings on the Abstract and Concrete."
       owner = ""
       keywords = ""
       copyright = ""
@@ -88,7 +88,7 @@ pagination.pagerSize = 5
       words = "words"
 
       [languages.en.params.logo]
-        logoText = "Terminal"
+        logoText = "Some Programs"
         logoHomeLink = "/"
 
       [languages.en.menu]
