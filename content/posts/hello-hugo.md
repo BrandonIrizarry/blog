@@ -2,23 +2,11 @@
 title = "Hello Hugo"
 author = ["Brandon C. Irizarry"]
 date = 2025-09-22T11:36:00-04:00
-lastmod = 2025-09-22T12:13:05-04:00
+lastmod = 2025-09-23T12:31:06-04:00
 tags = ["hugo", "org"]
 draft = false
 summary = "Hugo, Ox Hugo and GitHub Pages → this website."
 +++
-
-<div class="ox-hugo-toc toc">
-
-<div class="heading">Table of Contents</div>
-
-- [Introduction](#introduction)
-- [Some Backstory](#some-backstory)
-- [Enter Hugo](#enter-hugo)
-
-</div>
-<!--endtoc-->
-
 
 ## Introduction {#introduction}
 

@@ -1,34 +1,49 @@
 #+title: Some Programs
-#+startup: logdone
+#+startup: logdone overview
 
 
 * DONE About
-  CLOSED: [2025-09-22 Mon 11:44]
   :properties:
   :export_hugo_section: about
   :export_file_name: about
+  :export_hugo_custom_front_matter: :toc false
   :end:
 
 ** About Me
 
-   My name is Brandon Irizarry. I write about stuff that interests me
-   on this blog. That can, as is mandated by tradition, include
-   software and other tech-related projects I'm working on (or with),
-   but can come to include other hobbies as well, like playing
-   keyboard (and music in general.)
+   My name is Brandon Irizarry. Here you'll find stuff about software
+   and other tech-related projects I'm either working on, or else
+   using, as well as thoughts on other hobbies, such as music.
+
+   I currently am brushing up on my piano skills, and am also an avid
+   classical music fan (mostly Baroque-to-Classical era; [[https://www.youtube.com/playlist?list=PLwEx-3EdmA0YaWxqVt19sYYNSDaRL7MLe][the complete
+   string quartets of Haydn]] is a favorite of mine. My favorite
+   quartet, if I had to choose one, would be the Lark Quartet, Op. 64,
+   No. 5 in D.)
+
+   Mathematics is also a passing interest of mine, though I haven't
+   had time to pursue it in any great depth. I hope that situation
+   changes in the future, though.
+
 
 * Projects
   :properties:
   :export_hugo_section: projects
   :export_file_name: projects
+  :export_hugo_custom_front_matter: :toc false
   :end:
 
-  Summaries and links to my various projects will go here.
-  
+** Lambda Term
+
+   A programming language bootstrapped off of lambda calculus,
+   especially beta-reduction. Currently in progress.
+   
+  https://github.com/BrandonIrizarry/lambda_term
+
+
 * Posts
   :properties:
   :export_hugo_section: posts
-  :export_options: toc:headlines
   :end:
 
   This heading exists mainly so that subtrees inherit ~posts~ as their
@@ -168,6 +183,8 @@
     "bootstrapping" introduction to itself.
 
 
+
+    
 * Footnotes
 
 [fn:8] I'm installing for GNU/Linux. 

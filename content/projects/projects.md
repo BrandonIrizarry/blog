@@ -1,8 +1,14 @@
 +++
 title = "Projects"
 author = ["Brandon C. Irizarry"]
-lastmod = 2025-09-22T12:13:05-04:00
+lastmod = 2025-09-23T12:31:06-04:00
 draft = false
+toc = false
 +++
 
-Summaries and links to my various projects will go here.
+## Lambda Term {#lambda-term}
+
+A programming language bootstrapped off of lambda calculus,
+especially beta-reduction. Currently in progress.
+
+<https://github.com/BrandonIrizarry/lambda_term>
