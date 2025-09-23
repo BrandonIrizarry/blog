@@ -1,7 +1,7 @@
 +++
 title = "Projects"
 author = ["Brandon C. Irizarry"]
-lastmod = 2025-09-23T12:31:06-04:00
+lastmod = 2025-09-23T13:01:52-04:00
 draft = false
 toc = false
 +++

@@ -1,6 +1,7 @@
 baseurl = "https://brandonirizarry.github.io/blog"
 languageCode = "en-us"
 pagination.pagerSize = 5
+pluralizelisttitles = false
 
 # Required for Chroma and the custom syntax highlighting.
 [markup.highlight]

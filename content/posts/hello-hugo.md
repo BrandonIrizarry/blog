@@ -2,7 +2,7 @@
 title = "Hello Hugo"
 author = ["Brandon C. Irizarry"]
 date = 2025-09-22T11:36:00-04:00
-lastmod = 2025-09-23T12:31:06-04:00
+lastmod = 2025-09-23T13:01:53-04:00
 tags = ["hugo", "org"]
 draft = false
 summary = "Hugo, Ox Hugo and GitHub Pages → this website."
