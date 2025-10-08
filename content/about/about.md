@@ -1,7 +1,7 @@
 +++
 title = "About"
 author = ["Brandon C. Irizarry"]
-lastmod = 2025-09-23T13:01:52-04:00
+lastmod = 2025-10-08T14:17:05-04:00
 draft = false
 toc = false
 +++
@@ -19,5 +19,4 @@ quartet, if I had to choose one, would be the Lark Quartet, Op. 64,
 No. 5 in D.)
 
 Mathematics is also a passing interest of mine, though I haven't
-had time to pursue it in any great depth. I hope that situation
-changes in the future, though.
+had time as of yet to pursue it in any great depth.
