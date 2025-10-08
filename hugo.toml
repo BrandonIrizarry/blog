@@ -1,4 +1,4 @@
-baseurl = "https://brandonirizarry.github.io/blog"
+baseurl = "https://brandonirizarry.github.io/"
 languageCode = "en-us"
 pagination.pagerSize = 5
 pluralizelisttitles = false
@@ -95,7 +95,7 @@ pluralizelisttitles = false
 
       [languages.en.params.logo]
         logoText = "Some Programs"
-        logoHomeLink = "/blog"
+        logoHomeLink = "/"
 
       [languages.en.menu]
         [[languages.en.menu.main]]
