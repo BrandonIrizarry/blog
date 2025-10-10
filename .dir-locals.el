@@ -2,4 +2,4 @@
 ;;; For more information see (info "(emacs) Directory Variables")
 
 ((org-mode . ((org-hugo-auto-set-lastmod . t)
-              (org-hugo-base-dir . "~/Desktop/brandonirizarry.github.io/"))))
+              (org-hugo-base-dir . "~/repos/brandonirizarry.github.io/"))))
