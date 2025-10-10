@@ -1,8 +1,9 @@
 +++
 title = "Hello Hugo"
 author = ["Brandon C. Irizarry"]
-date = 2025-09-22T11:36:00-04:00
-lastmod = 2025-10-08T14:17:05-04:00
+date = 2025-10-09T00:00:00-04:00
+publishDate = 2025-10-09T00:00:00-04:00
+lastmod = 2025-10-09T22:09:28-04:00
 tags = ["hugo", "org"]
 draft = false
 summary = "Hugo, Ox Hugo and GitHub Pages → this website."
@@ -137,20 +138,20 @@ learning Hugo, and so this is merely something to give my blog
 content a conceptually satisfying first post serving as a
 "bootstrapping" introduction to itself.
 
-[^fn:1]: Arguably, this is why a lot of people famously find coding
+[^fn:1]: I experienced this quite directly while attempting to follow
+    instructions to deploy my site to GitHub Pages. Moral of the story:
+    the official Hugo site is where to get the necessary `yaml` file. 😑
+[^fn:2]: I'm installing for GNU/Linux.
+[^fn:3]: <https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/index.html>
+[^fn:4]: Arguably, this is why a lot of people famously find coding
     difficult at first: there's a lot of _implied_ know-how one really
     needs to come to the table with in order to be successful at the
     endeavor. Proficiency in matters of software can often be a sub-linear
     bootstrapping process.
-[^fn:2]: <https://weblog.masukomi.org/2024/07/19/using-org-mode-with-hugo/>
-[^fn:3]: I had actually used it to complete the _Nand to Tetris_ course
+[^fn:5]: <https://weblog.masukomi.org/2024/07/19/using-org-mode-with-hugo/>
+[^fn:6]: I had actually used it to complete the _Nand to Tetris_ course
     on Coursera. Perhaps not as popular a choice as, say, Java or Python,
     but hey - I was more interested in Lua at the time.
-[^fn:4]: Lua 5.0 edition available here: <https://www.lua.org/pil/contents.html>
-[^fn:5]: However, Markdown Mode for Emacs is nevertheless excellent, and
+[^fn:7]: Lua 5.0 edition available here: <https://www.lua.org/pil/contents.html>
+[^fn:8]: However, Markdown Mode for Emacs is nevertheless excellent, and
     can make editing Markdown almost feel like you're editing Org!
-[^fn:6]: <https://mikefrobbins.com/2023/10/26/building-and-deploying-a-blog-with-hugo-and-github-pages/>
-[^fn:7]: I experienced this quite directly while attempting to follow
-    instructions to deploy my site to GitHub Pages. Moral of the story:
-    the official Hugo site is where to get the necessary `yaml` file. 😑
-[^fn:8]: I'm installing for GNU/Linux.

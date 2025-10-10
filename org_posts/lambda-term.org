@@ -1,0 +1,24 @@
+#+title: Lambda Term
+#+author: Brandon C. Irizarry
+#+hugo_publishdate: 2025-10-09T22:20:51-0400
+#+date: 2025-10-09T22:20:51-0400
+#+hugo_auto_set_lastmod: t
+#+filetags: projects
+#+draft: false
+#+hugo_section: projects
+#+hugo_custom_front_matter: :summary "A programming language bootstrapped off of lambda calculus."
+
+A programming language bootstrapped off of lambda calculus.
+
+* Repo
+
+  https://github.com/BrandonIrizarry/lambda_term
+
+* Introduction
+  
+** Primitives
+
+
+   
+
+

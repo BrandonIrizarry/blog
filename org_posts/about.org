@@ -1,20 +1,16 @@
-+++
-title = "About Me"
-author = ["Brandon C. Irizarry"]
-lastmod = 2025-10-09T22:40:05-04:00
-tags = ["about"]
-draft = false
-summary = "About me."
-toc = false
-+++
+#+title: About Me
+#+filetags: about
+#+draft: false
+#+hugo_section: about
+#+hugo_custom_front_matter: :summary "About me." :toc false
 
 My name is Brandon Irizarry. Here you'll find stuff about software
 and other tech-related projects I'm either working on, or else
 using, as well as thoughts on other hobbies, such as music.
 
 I currently am brushing up on my piano skills, and am also an avid
-classical music fan (mostly Baroque-to-Classical era; [the complete
-string quartets of Haydn](https://www.youtube.com/playlist?list=PLwEx-3EdmA0YaWxqVt19sYYNSDaRL7MLe) is a favorite of mine. My favorite
+classical music fan (mostly Baroque-to-Classical era; [[https://www.youtube.com/playlist?list=PLwEx-3EdmA0YaWxqVt19sYYNSDaRL7MLe][the complete
+string quartets of Haydn]] is a favorite of mine. My favorite
 quartet, if I had to choose one, would be the Lark Quartet, Op. 64,
 No. 5 in D.)
 
